@@ -11,3 +11,7 @@
     object-fit: cover;
     gap: 2rem;
 }
+
+.nft-collections .nft-cards {
+    margin-bottom: 2rem;
+}

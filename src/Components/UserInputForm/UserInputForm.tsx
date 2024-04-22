@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./UserInputForm.css"
 
 interface UserInputFormProps {
   fetchNFTs: (accountName: string) => Promise<void>;

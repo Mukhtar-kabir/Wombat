@@ -11,8 +11,6 @@ const NFTCard: React.FC<NFTCardProps> = ({ nft }) => {
   // Log the NFT object for debugging purposes
   console.log("NFT Object:", nft);
 
-  const imageCID = nft?.template?.immutable_data?.img;
-
   // Render the NFTCard component
   return (
     <div className="nft-card">
