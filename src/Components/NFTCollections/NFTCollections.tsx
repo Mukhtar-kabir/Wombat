@@ -23,7 +23,7 @@ const NFTCollections: React.FC<NFTCollectionsProps> = ({ nfts }) => {
           {/* Render the name of the NFT collection */}
           <h2>{nft.collection.name}</h2>
           <img src={`https://ipfs.io/ipfs/${nft.collection.img}`} alt="" />
-          <p>{nft.template_mint}</p>
+          {nft.template_mint && <p>Mint Number: {nft.template_mint}</p>}
           {/* Render the NFT cards for the current collection */}
           <div className="nft-cards">
             {/* Map through each asset in the collection */}
