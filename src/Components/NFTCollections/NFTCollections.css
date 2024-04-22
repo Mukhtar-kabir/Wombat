@@ -1,4 +1,13 @@
-.nft-card {
-    display: flex;
-    flex-wrap: wrap;
+.nft-collections {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nft-collections img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    gap: 2rem;
 }
